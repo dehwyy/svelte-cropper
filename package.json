@@ -1,0 +1,42 @@
+{
+	"name": "svelte-cropper",
+	"version": "0.0.1",
+	"license": "MIT",
+	"description": "CropperJS component for Svelte",
+	"author": "dehwyy <https://github.com/dehwyy>",
+	"scripts": {
+		"dev": "vite dev --port 4444",
+		"build": "vite build && npm run package",
+		"preview": "vite preview",
+		"package": "svelte-kit sync && svelte-package && publint"
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"peerDependencies": {
+		"svelte": "^4.0.0",
+		"cropperjs": "^1.6.1"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/package": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"publint": "^0.1.9",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.11"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"types": "./dist/index.d.ts",
+	"type": "module"
+}
