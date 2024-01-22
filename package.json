@@ -2,8 +2,16 @@
 	"name": "svelte-cropper",
 	"version": "0.0.1",
 	"license": "MIT",
-	"description": "CropperJS component for Svelte",
+	"description": "CropperJS component for Svelte.",
 	"author": "dehwyy <https://github.com/dehwyy>",
+	"keywords": ["cropperjs", "svelte", "sveltekit"],
+	"contributors": ["dehwyy"],
+	"repository": {
+		"type": "git",
+		"directory": "https://github.com/dehwyy/svelte-cropper",
+		"url": "src/lib/cropper"
+	},
+	"bugs": "https://github.com/dehwyy/svelte-cropper/issues",
 	"scripts": {
 		"dev": "vite dev --port 4444",
 		"build": "vite build && npm run package",
@@ -17,7 +25,9 @@
 		}
 	},
 	"files": [
-		"dist"
+		"dist",
+		"README.md",
+		"LICENSE"
 	],
 	"peerDependencies": {
 		"svelte": "^4.0.0",
