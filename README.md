@@ -4,7 +4,7 @@ CropperJS component for Svelte.
 
 ## Example
 
-```sveltehtml
+```svelte
 <script lang="ts">
     import { Cropper, type CropperInstance, type CropperDefaultProps } from "svelte-cropper"
     
